@@ -24,7 +24,8 @@ body {
     color: #d9dcd6;
 }
 
-.header div {
+
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,11 +33,11 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+.header nav ul {
     list-style-type: none;
 }
 
-.header div ul li {
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -59,6 +60,12 @@ p {
     background-position: center;
 }
 
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
 .float-left {
     float: left;
     margin-right: 25px;
@@ -67,12 +74,6 @@ p {
 .float-right {
     float: right;
     margin-left: 25px;
-}
-
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
 }
 
 .benefits {
@@ -86,6 +87,12 @@ p {
     background-color: #2589bd;
 }
 
+.icon {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/*
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
@@ -100,12 +107,14 @@ p {
     margin-bottom: 32px;
     color: #ffffff;
 }
+*/
 
-.benefit-lead h3 {
+.icon h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/*
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -115,13 +124,15 @@ p {
     margin-bottom: 10px;
     text-align: center;
 }
+*/
 
-.benefit-lead img {
+.icon img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/*
 .benefit-brand img {
     display: block;
     margin: 10px auto;
@@ -133,8 +144,9 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+*/
 
-.search-engine-optimization {
+.picture {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -143,6 +155,7 @@ p {
     color: #ffffff;
 }
 
+/*
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -160,6 +173,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
+*/
 
 .search-engine-optimization img {
     max-height: 200px;
