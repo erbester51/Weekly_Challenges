@@ -146,7 +146,7 @@ p {
 }
 */
 
-/*Added new class .picture and condensed the css code into one block since everythin was the same.*/
+/*Added new class .picture in the hero class and condensed the css code into one block since everything was the same.*/
 .picture {
     margin-bottom: 20px;
     padding: 50px;
